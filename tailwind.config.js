@@ -9,6 +9,9 @@ module.exports = {
           "100": "#E2E2d5",
           "200": "#888883"
         }
+      },
+      fontFamily: {
+        body: ['Poppins']
       }
     },
   },

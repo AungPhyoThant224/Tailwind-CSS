@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="text-gray-600 font-sans">
-    <div>
-      <div>
+    <div class="grid md:grid-cols-3">
+      <div class="md:col-span-1">
         <nav>
           <div>
             <h1 class="uppercase font-bold p-4 border-b border-gray-100">
@@ -32,7 +32,7 @@
           </ul>
         </nav>
       </div>
-      <main class="px-16 py-6">
+      <main class="px-16 py-6 md:col-span-2">
         <div class="flex justify-center md:justify-end">
           <a href="#" class="text-primary">Login</a>
           <a href="#" class="text-primary ml-2">Sign Up</a>
@@ -48,7 +48,7 @@
             Latest Recipes
           </h4>
 
-          <div class="mt-8">
+          <div class="mt-8 grid lg:grid-cols-3 gap-10">
             <div class="card">
               <img
                 src="./images/tealeaf-salad.jpeg"

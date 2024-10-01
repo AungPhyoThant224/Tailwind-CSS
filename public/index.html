@@ -12,7 +12,7 @@
         <nav>
           <div>
             <h1 class="uppercase font-bold p-4 border-b border-gray-100">
-              <a href="/">Food Ninja</a>
+              <a href="/" class="hover:text-gray-700">Food Ninja</a>
             </h1>
           </div>
           <ul>
@@ -85,10 +85,14 @@
       </div>
       <main class="px-16 py-6 md:col-span-2">
         <div class="flex justify-center md:justify-end">
-          <a href="#" class="btn text-primary border-primary md:border-2"
+          <a
+            href="#"
+            class="btn text-primary border-primary md:border-2 hover:bg-primary hover:text-white"
             >Login</a
           >
-          <a href="#" class="btn text-primary ml-2 border-primary md:border-2"
+          <a
+            href="#"
+            class="btn text-primary ml-2 border-primary md:border-2 hover:bg-primary hover:text-white"
             >Sign Up</a
           >
         </div>
@@ -104,7 +108,7 @@
           </h4>
 
           <div class="mt-8 grid lg:grid-cols-3 gap-10">
-            <div class="card">
+            <div class="card hover:shadow-lg">
               <img
                 src="./images/tealeaf-salad.jpeg"
                 alt="Tea Leaf Salad"
@@ -136,7 +140,7 @@
               </div>
             </div>
 
-            <div class="card">
+            <div class="card hover:shadow-lg">
               <img
                 src="./images/shan-noodle.jpg"
                 alt="Shan Noodle"
@@ -169,7 +173,7 @@
               </div>
             </div>
 
-            <div class="card">
+            <div class="card hover:shadow-lg">
               <img
                 src="./images/mohinga.jpg"
                 alt="Mohinga"
@@ -208,11 +212,15 @@
           </h4>
 
           <div class="mt-8">
-            <!-- Cards go here -->
+            <!-- Card hover:shadow-lgs go here -->
           </div>
 
           <div class="flex justify-center">
-            <div class="btn bg-secondary-100 text-secondary-200">Load more</div>
+            <div
+              class="btn bg-secondary-100 text-secondary-200 hover:shadow-inner"
+            >
+              Load more
+            </div>
           </div>
         </div>
       </main>
